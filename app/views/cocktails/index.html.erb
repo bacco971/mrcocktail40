@@ -2,5 +2,8 @@
 <% @cocktails.each do |cocktail| %>
   <h1>
     <%= link_to cocktail.name, cocktail %>
+    <%= cl_image_tag("10382984_758212484273303_559603188189295384_n_nthl5q.jpg"),
+    width: 400, height: 300, crop: :fill) %>
   </h1>
 <% end %>
+
